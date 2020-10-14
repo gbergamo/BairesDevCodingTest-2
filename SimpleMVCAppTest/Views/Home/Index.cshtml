@@ -1,0 +1,46 @@
+﻿@model SimpleMVCAppTest.ViewModel.HomeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+@using (Html.BeginForm())
+{
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Choose the country</p>
+        @Html.DropDownListFor(model => model.countries,
+                            new SelectList(Model.countries, "IsoCode", "Name"),
+                            "Select country",
+                            new { @class = "form-control", @id = "ddlCountry" })
+
+        <p>Choose animal</p>
+        @Html.DropDownListFor(model => model.animals,
+                            new SelectList(String.Empty, "ScientificName", "ScientificName"),
+                            "Select animal",
+                            new { @class = "form-control", @id = "ddlAnimal" })
+
+    </div>
+}
+<script type="text/javascript">
+    
+    $(document).ready(function () {
+        $("#ddlCountry").change(function () {
+            $("#ddlAnimal").empty();
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("GetAnimalByCountry")',
+                dataType: 'json',
+                data: { country: $("#ddlCountry").val() },
+                success: function (animals) {
+                    $.each(animals, function (i, animal) {
+                        console.log(animal);
+                        $("#ddlAnimal").append('<option>' + animal.scientificName + '</option>');
+                    });
+                },
+                error: function (ex) {
+                    alert('Failed to retrieve animals.' + ex);
+                }
+            });
+            return false;
+        })
+    });
+</script>

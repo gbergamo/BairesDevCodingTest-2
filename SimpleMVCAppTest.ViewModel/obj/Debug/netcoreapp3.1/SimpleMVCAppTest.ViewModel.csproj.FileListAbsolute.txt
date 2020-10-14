@@ -1,0 +1,9 @@
+C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTest.ViewModel\bin\Debug\netcoreapp3.1\SimpleMVCAppTest.ViewModel.deps.json
+C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTest.ViewModel\bin\Debug\netcoreapp3.1\SimpleMVCAppTest.ViewModel.dll
+C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTest.ViewModel\bin\Debug\netcoreapp3.1\SimpleMVCAppTest.ViewModel.pdb
+C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTest.ViewModel\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTest.ViewModel\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.ViewModel.AssemblyInfoInputs.cache
+C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTest.ViewModel\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.ViewModel.AssemblyInfo.cs
+C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTest.ViewModel\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.ViewModel.dll
+C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTest.ViewModel\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.ViewModel.pdb
+C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTest.ViewModel\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.ViewModel.csprojAssemblyReference.cache

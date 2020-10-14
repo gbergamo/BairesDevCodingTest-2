@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "y98GjxEON4APtBtrovAm0gsUVheP/+SgtnBBxf6arENf1rVtIZ3wj+tNMmC/kyZN0FF/9tTBY6p2VFuc2Abyug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Models\\SimpleMVCAppTest.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gobm\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
