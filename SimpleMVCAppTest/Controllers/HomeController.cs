@@ -35,7 +35,7 @@ namespace SimpleMVCAppTest.Controllers
             return View(homeViewModel);
         }
 
-        [HttpPost]  
+        [HttpGet]  
         public JsonResult GetAnimalByCountry(string country)
         {
             var animals = animalAppService.GetAnimalByCountryCode(country);
