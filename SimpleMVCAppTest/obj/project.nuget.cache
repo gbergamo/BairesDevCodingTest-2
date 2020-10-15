@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wYS14rwGcfOY2olMqkLwnlNLhyMYeVdv554AfSlZRjRFWmzzbO65phFSiPJnjMtmJwLjZIBuwRGyiSsphz67Ew==",
+  "dgSpecHash": "kSOYuzIEESQcyMipQkX375ZjLqUXWzvCt9W5WmvSoSG641w7mnj457zneQa+5y5TUMXu56b3X1A+HnoclXbbPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest\\SimpleMVCAppTest.csproj",
+  "projectFilePath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest\\SimpleMVCAppTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gobm\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\gobm\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

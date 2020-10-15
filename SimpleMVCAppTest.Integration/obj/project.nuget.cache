@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wnN6lCiXqBdNGyj8GbN3BMAU7Gj2SetatR/ARqMjdBrOjGHoTFKgppqyIT1HOETavoklbhOoHk/P9uYVigIAWg==",
+  "dgSpecHash": "+pZYM10MkeoZhhFiX1iKoBRh/WfIZCWic+iMZunzvkwsfjf57KTVSV6A/fqCGZqnPh/bLuTh/2g82UdRmdTEgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj",
+  "projectFilePath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gobm\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

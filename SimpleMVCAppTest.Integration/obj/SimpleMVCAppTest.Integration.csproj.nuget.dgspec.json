@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj": {}
+    "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj": {
+    "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj",
+        "projectUniqueName": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj",
         "projectName": "SimpleMVCAppTest.Integration",
-        "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj",
+        "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj",
         "packagesPath": "C:\\Users\\gobm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Integration\\obj\\",
+        "outputPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Integration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Models\\SimpleMVCAppTest.Models.csproj": {
-                "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Models\\SimpleMVCAppTest.Models.csproj"
+              "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Models\\SimpleMVCAppTest.Models.csproj": {
+                "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Models\\SimpleMVCAppTest.Models.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Models\\SimpleMVCAppTest.Models.csproj": {
+    "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Models\\SimpleMVCAppTest.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Models\\SimpleMVCAppTest.Models.csproj",
+        "projectUniqueName": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Models\\SimpleMVCAppTest.Models.csproj",
         "projectName": "SimpleMVCAppTest.Models",
-        "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Models\\SimpleMVCAppTest.Models.csproj",
+        "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Models\\SimpleMVCAppTest.Models.csproj",
         "packagesPath": "C:\\Users\\gobm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Models\\obj\\",
+        "outputPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

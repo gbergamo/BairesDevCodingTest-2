@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -13,6 +9,7 @@ using SimpleMVCAppTest.ApplicationService.Mapper;
 using SimpleMVCAppTest.ApplicationService.Services;
 using SimpleMVCAppTest.Integration;
 using SimpleMVCAppTest.Integration.Interfaces;
+using SimpleMVCAppTest.Models.Configuration;
 
 namespace SimpleMVCAppTest
 {
@@ -28,6 +25,10 @@ namespace SimpleMVCAppTest
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var apiSettings = new APISettingsConfiguration();
+            Configuration.GetSection("APISettings").Bind(apiSettings);
+            services.AddSingleton(apiSettings);
+
             services.AddScoped<ICountryAppService, CountryAppService>();
             services.AddScoped<IAnimalAppService, AnimalAppService>();
             services.AddScoped<IRedList, RedList>();

@@ -302,11 +302,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest\\SimpleMVCAppTest.csproj",
+      "projectUniqueName": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest\\SimpleMVCAppTest.csproj",
       "projectName": "SimpleMVCAppTest",
-      "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest\\SimpleMVCAppTest.csproj",
+      "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest\\SimpleMVCAppTest.csproj",
       "packagesPath": "C:\\Users\\gobm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest\\obj\\",
+      "outputPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -326,11 +326,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.ApplicationService\\SimpleMVCAppTest.ApplicationService.csproj": {
-              "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.ApplicationService\\SimpleMVCAppTest.ApplicationService.csproj"
+            "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.ApplicationService\\SimpleMVCAppTest.ApplicationService.csproj": {
+              "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.ApplicationService\\SimpleMVCAppTest.ApplicationService.csproj"
             },
-            "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj": {
-              "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj"
+            "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj": {
+              "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.Integration\\SimpleMVCAppTest.Integration.csproj"
             }
           }
         }

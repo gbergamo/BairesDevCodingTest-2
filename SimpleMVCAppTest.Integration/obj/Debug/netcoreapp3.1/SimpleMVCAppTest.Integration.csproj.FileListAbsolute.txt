@@ -10,3 +10,15 @@ C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTe
 C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTest.Integration\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.csproj.CopyComplete
 C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTest.Integration\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.dll
 C:\Users\gobm\source\repos\BairesDevCodingTest.2\SimpleMVCAppTest\SimpleMVCAppTest.Integration\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.pdb
+C:\Users\gobm\source\repos\BairesDevCodingTest-2\SimpleMVCAppTest.Integration\bin\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.deps.json
+C:\Users\gobm\source\repos\BairesDevCodingTest-2\SimpleMVCAppTest.Integration\bin\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.dll
+C:\Users\gobm\source\repos\BairesDevCodingTest-2\SimpleMVCAppTest.Integration\bin\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.pdb
+C:\Users\gobm\source\repos\BairesDevCodingTest-2\SimpleMVCAppTest.Integration\bin\Debug\netcoreapp3.1\SimpleMVCAppTest.Models.dll
+C:\Users\gobm\source\repos\BairesDevCodingTest-2\SimpleMVCAppTest.Integration\bin\Debug\netcoreapp3.1\SimpleMVCAppTest.Models.pdb
+C:\Users\gobm\source\repos\BairesDevCodingTest-2\SimpleMVCAppTest.Integration\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.csprojAssemblyReference.cache
+C:\Users\gobm\source\repos\BairesDevCodingTest-2\SimpleMVCAppTest.Integration\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.csproj.CoreCompileInputs.cache
+C:\Users\gobm\source\repos\BairesDevCodingTest-2\SimpleMVCAppTest.Integration\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.AssemblyInfoInputs.cache
+C:\Users\gobm\source\repos\BairesDevCodingTest-2\SimpleMVCAppTest.Integration\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.AssemblyInfo.cs
+C:\Users\gobm\source\repos\BairesDevCodingTest-2\SimpleMVCAppTest.Integration\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.csproj.CopyComplete
+C:\Users\gobm\source\repos\BairesDevCodingTest-2\SimpleMVCAppTest.Integration\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.dll
+C:\Users\gobm\source\repos\BairesDevCodingTest-2\SimpleMVCAppTest.Integration\obj\Debug\netcoreapp3.1\SimpleMVCAppTest.Integration.pdb

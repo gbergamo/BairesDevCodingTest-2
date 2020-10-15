@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using SimpleMVCAppTest.Integration.Interfaces;
 using SimpleMVCAppTest.Models;
+using SimpleMVCAppTest.Models.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Net;
@@ -9,19 +10,22 @@ namespace SimpleMVCAppTest.Integration
 {
     public class RedList: IRedList
     {
-        private const string PRIVATEKEY = "9bb4facb6d23f48efbf424bb05c0c1ef1cf6f468393bc745d42179ac4aca5fee";
-        private const string COUNTRY_URL = "http://apiv3.iucnredlist.org/api/v3/country/list";
-        private const string ANIMAL_URL = "http://apiv3.iucnredlist.org/api/v3/country/getspecies";
+        private readonly APISettingsConfiguration apiSettingsConfiguration;
+
+        public RedList(APISettingsConfiguration apiSettingsConfiguration)
+        {
+            this.apiSettingsConfiguration = apiSettingsConfiguration;
+        }
 
         public IEnumerable<Country> GetCountries()
         {
-            var countries = DownloadAndDeserializeJsonData<JSONCountry>($"{COUNTRY_URL}?token={PRIVATEKEY}");
+            var countries = DownloadAndDeserializeJsonData<JSONCountry>($"{apiSettingsConfiguration.CountryUrl}?token={apiSettingsConfiguration.PrivateKey}");
             return countries == null ? new List<Country>() : countries.Results;
         }   
 
         public IEnumerable<Animal> GetAnimalsByCountry(string countryCode)
         {
-            var animals = DownloadAndDeserializeJsonData<JSONAnimal>($"{ANIMAL_URL}/{countryCode}?token={PRIVATEKEY}");
+            var animals = DownloadAndDeserializeJsonData<JSONAnimal>($"{apiSettingsConfiguration.SpeciesUrl}/{countryCode}?token={apiSettingsConfiguration.PrivateKey}");
             return animals == null ? new List<Animal>() : animals.Result;
         }
 

@@ -18,12 +18,24 @@
                             "Select animal",
                             new { @class = "form-control", @id = "ddlAnimal" })
 
+        <br />
+
+        <div class="progressDiv" style="display:none">
+            <div>
+                <p>Loading data...</p>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+            </div>
+
+        </div>
     </div>
 }
 <script type="text/javascript">
-    
+
     $(document).ready(function () {
         $("#ddlCountry").change(function () {
+            $(".progressDiv").toggle();
             $("#ddlAnimal").empty();
             $.ajax({
                 type: 'POST',
@@ -31,12 +43,14 @@
                 dataType: 'json',
                 data: { country: $("#ddlCountry").val() },
                 success: function (animals) {
+                    $(".progressDiv").toggle();
+                    $("#ddlAnimal").append('<option>Select Animal</option>');
                     $.each(animals, function (i, animal) {
-                        console.log(animal);
                         $("#ddlAnimal").append('<option>' + animal.scientificName + '</option>');
                     });
                 },
                 error: function (ex) {
+                    $(".progressDiv").toggle();
                     alert('Failed to retrieve animals.' + ex);
                 }
             });

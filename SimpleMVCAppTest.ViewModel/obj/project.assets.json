@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.ViewModel\\SimpleMVCAppTest.ViewModel.csproj",
+      "projectUniqueName": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.ViewModel\\SimpleMVCAppTest.ViewModel.csproj",
       "projectName": "SimpleMVCAppTest.ViewModel",
-      "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.ViewModel\\SimpleMVCAppTest.ViewModel.csproj",
+      "projectPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.ViewModel\\SimpleMVCAppTest.ViewModel.csproj",
       "packagesPath": "C:\\Users\\gobm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest.2\\SimpleMVCAppTest\\SimpleMVCAppTest.ViewModel\\obj\\",
+      "outputPath": "C:\\Users\\gobm\\source\\repos\\BairesDevCodingTest-2\\SimpleMVCAppTest.ViewModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
